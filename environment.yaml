@@ -1,0 +1,16 @@
+name: dstoolbox
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - ipykernel
+  - jupyterlab
+  - jupyterlab-spellchecker
+  - nbconvert
+  - jupyterlab-git
+  - pandas
+  - otter-grader
+  - scikit-learn=1.2.1
+  - matplotlib
+prefix: /home/simo/miniconda3/envs/dstoolbox
